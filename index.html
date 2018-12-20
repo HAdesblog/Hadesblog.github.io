@@ -382,6 +382,148 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hadesblog.github.io/2018/12/20/test/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Su yi Bei">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="恍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/20/test/" class="post-title-link" itemprop="https://hadesblog.github.io/index.html">test</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-12-20 11:52:45 / 修改时间：11:53:53" itemprop="dateCreated datePublished" datetime="2018-12-20T11:52:45+08:00">2018-12-20</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2018/12/20/test/2018-12-20-11-53-29.jpg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://hadesblog.github.io/2018/12/19/cms模版语法/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -444,7 +586,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-12-20 10:52:18" itemprop="dateModified" datetime="2018-12-20T10:52:18+08:00">2018-12-20</time>
+                <time title="修改时间：2018-12-20 11:38:26" itemprop="dateModified" datetime="2018-12-20T11:38:26+08:00">2018-12-20</time>
               
             
           </span>
@@ -483,7 +625,6 @@
 <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">自闭和标签</span><br><span class="line">&#123;dede:<span class="keyword">include</span> filename=<span class="string">"文件路径"</span>/&#125;;</span><br><span class="line">手动闭合标签：</span><br><span class="line">&#123;dede:channel type=<span class="string">"top"</span>&#125;&lt;a href=<span class="string">"#"</span>&gt;[field.title]&#123;/dede:channel&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="模版标签"><a href="#模版标签" class="headerlink" title="模版标签"></a>模版标签</h1><h2 id="include-标签"><a href="#include-标签" class="headerlink" title="[include] 标签"></a>[include] 标签</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* <span class="keyword">include</span></span><br><span class="line">语法：&#123;dede:<span class="keyword">include</span> filename=<span class="string">"文件名"</span>/&#125;</span><br><span class="line">说明：加载某个html片段或html模版文件</span><br><span class="line">示例: &#123;dede:<span class="keyword">include</span> filename=<span class="string">"head.htm"</span>/&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="channel-标签"><a href="#channel-标签" class="headerlink" title="[channel] 标签"></a>[channel] 标签</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* channel</span><br><span class="line">语法：&#123;dede:channel typeid=<span class="string">"栏目ID"</span> reid=<span class="string">"父栏目ID"</span> row=<span class="string">"调用数量"</span> col=<span class="string">"分多少列显示"</span> type=<span class="string">"显示的类型"</span> currentStyle=<span class="string">"当前栏目样式"</span>&#125;html代码&#123;/dede:channel&#125;</span><br><span class="line">说明：循环标签，返回给定属性的栏目列表;</span><br><span class="line">示例：&#123;dede:channel type=<span class="string">"top"</span>&#125;&lt;div&gt;test&lt;/div&gt;&#123;dede:channel&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="https://upload.jianshu.io/users/upload_avatars/5847426/d79b9d30-0c75-43a6-8372-711deae3ce52.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96" alt="avatar"><br><img src="/2018/12/19/cms模版语法/2018-12-20-09-42-40.jpg" alt="例子"></p>
 
           
         
@@ -712,7 +853,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
