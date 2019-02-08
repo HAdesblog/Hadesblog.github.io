@@ -1,1 +1,3 @@
-alert('x')
+<script>
+  alert('xxx')
+</script>
