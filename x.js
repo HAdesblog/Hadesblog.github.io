@@ -1,4 +1,4 @@
 <script>
-  alert('xxx')
+  alert('hello')
 </script>
 
